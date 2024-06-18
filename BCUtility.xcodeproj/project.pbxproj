@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24602B18B64A05ED2D7CE9AE /* Pods_BCUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7CD607F392FF9FDDD66C6F /* Pods_BCUtility.framework */; };
 		A05A43C02C21A87C00AFA581 /* BCUtility.docc in Sources */ = {isa = PBXBuildFile; fileRef = A05A43BF2C21A87C00AFA581 /* BCUtility.docc */; };
 		A05A43C62C21A87C00AFA581 /* BCUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05A43BB2C21A87C00AFA581 /* BCUtility.framework */; };
 		A05A43CB2C21A87C00AFA581 /* BCUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A05A43CA2C21A87C00AFA581 /* BCUtilityTests.m */; };
-		A05A43CC2C21A87C00AFA581 /* BCUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = A05A43BE2C21A87C00AFA581 /* BCUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A05A43DB2C21AACB00AFA581 /* BCService.m in Sources */ = {isa = PBXBuildFile; fileRef = A05A43D92C21AACB00AFA581 /* BCService.m */; };
+		A05A43DF2C21AAD800AFA581 /* BCCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = A05A43DD2C21AAD800AFA581 /* BCCommon.m */; };
+		A05A43E12C21AE9100AFA581 /* BCUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = A05A43BE2C21A87C00AFA581 /* BCUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A05A43E72C21B59F00AFA581 /* BCService.h in Headers */ = {isa = PBXBuildFile; fileRef = A05A43D82C21AACB00AFA581 /* BCService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A05A43E82C21B5A100AFA581 /* BCCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = A05A43DC2C21AAD800AFA581 /* BCCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA79B6707F33BBBF90B74CE3 /* Pods_BCUtility_BCUtilityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB8480F735E1124AFEE36BE /* Pods_BCUtility_BCUtilityTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +30,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04B1885E598634B54A0A7CAC /* Pods-BCUtility-BCUtilityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCUtility-BCUtilityTests.release.xcconfig"; path = "Target Support Files/Pods-BCUtility-BCUtilityTests/Pods-BCUtility-BCUtilityTests.release.xcconfig"; sourceTree = "<group>"; };
+		3003AA036DA27FAA95A4365D /* Pods-BCUtility-BCUtilityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCUtility-BCUtilityTests.debug.xcconfig"; path = "Target Support Files/Pods-BCUtility-BCUtilityTests/Pods-BCUtility-BCUtilityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		49BC7853BB673B163494B308 /* Pods-BCUtility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCUtility.debug.xcconfig"; path = "Target Support Files/Pods-BCUtility/Pods-BCUtility.debug.xcconfig"; sourceTree = "<group>"; };
+		4AF2E4E01072A4D89929DEF5 /* Pods-BCUtility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCUtility.release.xcconfig"; path = "Target Support Files/Pods-BCUtility/Pods-BCUtility.release.xcconfig"; sourceTree = "<group>"; };
 		A05A43BB2C21A87C00AFA581 /* BCUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BCUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05A43BE2C21A87C00AFA581 /* BCUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCUtility.h; sourceTree = "<group>"; };
 		A05A43BF2C21A87C00AFA581 /* BCUtility.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = BCUtility.docc; sourceTree = "<group>"; };
 		A05A43C52C21A87C00AFA581 /* BCUtilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCUtilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05A43CA2C21A87C00AFA581 /* BCUtilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCUtilityTests.m; sourceTree = "<group>"; };
+		A05A43D82C21AACB00AFA581 /* BCService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCService.h; sourceTree = "<group>"; };
+		A05A43D92C21AACB00AFA581 /* BCService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCService.m; sourceTree = "<group>"; };
+		A05A43DC2C21AAD800AFA581 /* BCCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCCommon.h; sourceTree = "<group>"; };
+		A05A43DD2C21AAD800AFA581 /* BCCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCCommon.m; sourceTree = "<group>"; };
+		AAB8480F735E1124AFEE36BE /* Pods_BCUtility_BCUtilityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BCUtility_BCUtilityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7CD607F392FF9FDDD66C6F /* Pods_BCUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BCUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24602B18B64A05ED2D7CE9AE /* Pods_BCUtility.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +61,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				A05A43C62C21A87C00AFA581 /* BCUtility.framework in Frameworks */,
+				CA79B6707F33BBBF90B74CE3 /* Pods_BCUtility_BCUtilityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16C74441547AE5A083CF036D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49BC7853BB673B163494B308 /* Pods-BCUtility.debug.xcconfig */,
+				4AF2E4E01072A4D89929DEF5 /* Pods-BCUtility.release.xcconfig */,
+				3003AA036DA27FAA95A4365D /* Pods-BCUtility-BCUtilityTests.debug.xcconfig */,
+				04B1885E598634B54A0A7CAC /* Pods-BCUtility-BCUtilityTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A05A43B12C21A87C00AFA581 = {
 			isa = PBXGroup;
 			children = (
 				A05A43BD2C21A87C00AFA581 /* BCUtility */,
 				A05A43C92C21A87C00AFA581 /* BCUtilityTests */,
 				A05A43BC2C21A87C00AFA581 /* Products */,
+				16C74441547AE5A083CF036D /* Pods */,
+				B2B910D620FD6997E26DA7F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,7 +102,10 @@
 		A05A43BD2C21A87C00AFA581 /* BCUtility */ = {
 			isa = PBXGroup;
 			children = (
+				A05A43D52C21AAA300AFA581 /* Lib */,
 				A05A43BE2C21A87C00AFA581 /* BCUtility.h */,
+				A05A43D82C21AACB00AFA581 /* BCService.h */,
+				A05A43D92C21AACB00AFA581 /* BCService.m */,
 				A05A43BF2C21A87C00AFA581 /* BCUtility.docc */,
 			);
 			path = BCUtility;
@@ -85,6 +119,24 @@
 			path = BCUtilityTests;
 			sourceTree = "<group>";
 		};
+		A05A43D52C21AAA300AFA581 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				A05A43DC2C21AAD800AFA581 /* BCCommon.h */,
+				A05A43DD2C21AAD800AFA581 /* BCCommon.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B2B910D620FD6997E26DA7F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE7CD607F392FF9FDDD66C6F /* Pods_BCUtility.framework */,
+				AAB8480F735E1124AFEE36BE /* Pods_BCUtility_BCUtilityTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -92,7 +144,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A05A43CC2C21A87C00AFA581 /* BCUtility.h in Headers */,
+				A05A43E12C21AE9100AFA581 /* BCUtility.h in Headers */,
+				A05A43E82C21B5A100AFA581 /* BCCommon.h in Headers */,
+				A05A43E72C21B59F00AFA581 /* BCService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +157,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A05A43CF2C21A87C00AFA581 /* Build configuration list for PBXNativeTarget "BCUtility" */;
 			buildPhases = (
+				99D4439FCE0FE0F4AC56051B /* [CP] Check Pods Manifest.lock */,
 				A05A43B62C21A87C00AFA581 /* Headers */,
 				A05A43B72C21A87C00AFA581 /* Sources */,
 				A05A43B82C21A87C00AFA581 /* Frameworks */,
@@ -121,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A05A43D22C21A87C00AFA581 /* Build configuration list for PBXNativeTarget "BCUtilityTests" */;
 			buildPhases = (
+				5B65DD3AAB10E9654F53E03A /* [CP] Check Pods Manifest.lock */,
 				A05A43C12C21A87C00AFA581 /* Sources */,
 				A05A43C22C21A87C00AFA581 /* Frameworks */,
 				A05A43C32C21A87C00AFA581 /* Resources */,
@@ -188,11 +244,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B65DD3AAB10E9654F53E03A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BCUtility-BCUtilityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99D4439FCE0FE0F4AC56051B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BCUtility-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A05A43B72C21A87C00AFA581 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05A43DF2C21AAD800AFA581 /* BCCommon.m in Sources */,
+				A05A43DB2C21AACB00AFA581 /* BCService.m in Sources */,
 				A05A43C02C21A87C00AFA581 /* BCUtility.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -327,7 +432,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -340,7 +445,9 @@
 		};
 		A05A43D02C21A87C00AFA581 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49BC7853BB673B163494B308 /* Pods-BCUtility.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -350,6 +457,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/BCUtility/BCHeaderPch.h\"";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -370,7 +478,9 @@
 		};
 		A05A43D12C21A87C00AFA581 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AF2E4E01072A4D89929DEF5 /* Pods-BCUtility.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -380,6 +490,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/BCUtility/BCHeaderPch.h\"";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -400,6 +511,7 @@
 		};
 		A05A43D32C21A87C00AFA581 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3003AA036DA27FAA95A4365D /* Pods-BCUtility-BCUtilityTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -415,6 +527,7 @@
 		};
 		A05A43D42C21A87C00AFA581 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B1885E598634B54A0A7CAC /* Pods-BCUtility-BCUtilityTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
